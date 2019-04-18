@@ -1,0 +1,113 @@
+.header-top-left span{
+    font-size: 14px;
+    line-height: 40px;
+}
+.header-top-right-v3 ul li{
+    list-style: none;
+    float: left;
+}
+.header-top-right-v3 ul li a{
+    color: black;
+}
+.icon-v3-top{
+    line-height: 40px;
+    font-size: 20px;
+}
+.fa-facebook-square{
+    color: blue;
+}
+.fa-instagram{
+    color: red;
+}
+.img-fluid{
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+.navbar{
+    background-color: #FEFEFE;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    font-family: sarabun-extrabold;
+    text-transform: uppercase;
+    color: black;
+    padding: 0px 20px;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: #D03135;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #D03135;
+}
+.navbar-nav .nav-item:last-child .nav-link{
+    padding-right: 0px;
+}
+
+.navbar-light .navbar-toggler{
+    border:none;
+}
+.send-mail{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: gray;
+}
+.icon-send{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    border: 2px solid white;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.fa-envelope{
+    width: 40px;
+    height: 40px;
+    color: white;
+    margin-top: 17px;
+}
+.btn{
+    position: absolute;
+    top: 81px;
+    right: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: 2px solid gray;
+    border-radius: 0;
+}
+.list-send{
+    margin-top: 80px;
+}
+.form-control{
+    margin-top: 80px;
+}
+.footer-hotel{
+    display: block;
+    height: 350px;
+     background-image: url('‪https://travel.com.vn/images/destination/Large/dg_160519_du-lich-da-nang.jpg');
+}
+.img-footer{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+}
+.list-footer{
+     margin-top: 100px;
+}
+.list-footer ul li{
+    list-style-type: none;
+}
+.list-footer ul li a{
+    color: black;
+    text-decoration: none;
+}
+.list-footer ul li a:hover{
+    color: red;
+}
+.fa-amazon-pay{
+    color: red;
+    width: 10px;
+    height: 10px;
+}
