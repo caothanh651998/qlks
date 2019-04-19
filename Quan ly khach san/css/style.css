@@ -1,3 +1,4 @@
+/* heder  */
 .header-top-left span{
     font-size: 14px;
     line-height: 40px;
@@ -24,10 +25,10 @@
     width: 70px;
     height: 70px;
 }
+/* menu */
 .navbar{
     background-color: #FEFEFE;
 }
-
 .navbar-light .navbar-nav .nav-link{
     font-family: sarabun-extrabold;
     text-transform: uppercase;
@@ -47,12 +48,66 @@
 .navbar-light .navbar-toggler{
     border:none;
 }
+/* slide show */
+.slide-show{
+    height: 400px;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.carousel-item img{
+    height: 400px;
+}
+/* check-about */
+form.cal{
+    display: block;
+    border: 2px solid black;
+}
+.gr1{
+    position: relative;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.check{
+    margin-left: 15px;
+}
+.btn-check{
+    background: red;
+    margin-left: 35%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.fa-calendar-alt:before {
+    position: absolute;
+    top: 43px;
+    right: 10px;
+}
+.help-list-title{
+    font-family: sarabun-extrabold;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.help-list-sub{
+    margin: 15px 0px;
+}
+
+.help-list-sub img{
+    width: 100%;
+    height: 220px;
+    padding: 20px 0px;
+}
+
+.help-list-sub a{
+    font-family: sarabun-extrabold;
+    color: #D03135;
+}
+/* send mail */
 .send-mail{
     width: 100%;
-    height: 200px;
+    min-height: 200px;
     margin-top: 50px;
     margin-bottom: 50px;
-    background: gray;
 }
 .icon-send{
     width: 70px;
@@ -68,7 +123,7 @@
     color: white;
     margin-top: 17px;
 }
-.btn{
+.btn-send{
     position: absolute;
     top: 81px;
     right: 16px;
@@ -80,13 +135,13 @@
 .list-send{
     margin-top: 80px;
 }
-.form-control{
+#exampleFormControlInput2{
     margin-top: 80px;
 }
+/* footer */
 .footer-hotel{
     display: block;
     height: 350px;
-     background-image: url('‪https://travel.com.vn/images/destination/Large/dg_160519_du-lich-da-nang.jpg');
 }
 .img-footer{
     width: 100%;
