@@ -1,4 +1,11 @@
 /* heder  */
+.header{
+    display: block;
+    padding: 0;
+    position: fixed;
+    top:0;
+    z-index: 5555;
+}
 .header-top-left span{
     font-size: 14px;
     line-height: 40px;
@@ -53,7 +60,7 @@
     height: 400px;
     display: block;
     padding: 0;
-    margin: 0;
+    margin-top: 150px;
 }
 .carousel-item img{
     height: 400px;
@@ -72,10 +79,13 @@ form.cal{
     margin-left: 15px;
 }
 .btn-check{
-    background: red;
+    background: #0D8E16;
     margin-left: 35%;
     margin-top: 10px;
     margin-bottom: 20px;
+}
+.btn-check:hover{
+    background:red ;
 }
 .fa-calendar-alt:before {
     position: absolute;
@@ -101,6 +111,9 @@ form.cal{
 .help-list-sub a{
     font-family: sarabun-extrabold;
     color: #D03135;
+}
+.map{
+    margin-top: 20px;
 }
 /* send mail */
 .send-mail{
