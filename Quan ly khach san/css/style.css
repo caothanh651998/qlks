@@ -5,6 +5,7 @@
     position: fixed;
     top:0;
     z-index: 5555;
+    border-bottom: 2px solid #0D8E16;
 }
 .header-top-left span{
     font-size: 14px;
@@ -24,8 +25,13 @@
 .fa-facebook-square{
     color: blue;
 }
+.fa-youtube{
+    color:red;
+    margin-left: 5px;
+    margin-right: 5px;
+}
 .fa-instagram{
-    color: red;
+    color: #FF0078;
 }
 .img-fluid{
     display: block;
@@ -51,16 +57,27 @@
 .navbar-nav .nav-item:last-child .nav-link{
     padding-right: 0px;
 }
-
 .navbar-light .navbar-toggler{
     border:none;
+}
+.navbar-collapse ul{
+    font-size: 13px;
+}
+.navbar-collapse ul li a.active{
+    border-bottom: 2px solid red;
+}
+.navbar-collapse ul li a.active:hover{
+    border-bottom: none;
+}
+.navbar-collapse ul li:hover{
+    border-bottom: 2px solid red;
 }
 /* slide show */
 .slide-show{
     height: 400px;
     display: block;
     padding: 0;
-    margin-top: 150px;
+    margin-top: 137px;
 }
 .carousel-item img{
     height: 400px;
@@ -68,12 +85,18 @@
 /* check-about */
 form.cal{
     display: block;
-    border: 2px solid black;
+    border: 2px solid #0D8E16;
 }
 .gr1{
     position: relative;
     margin-left: 15px;
     margin-right: 15px;
+}
+.check-time{
+    margin-top:20px;
+}
+.check-time h2{
+    color:#0D8E16;
 }
 .check{
     margin-left: 15px;
@@ -97,23 +120,44 @@ form.cal{
     text-transform: uppercase;
     font-size: 25px;
 }
-
 .help-list-sub{
     margin: 15px 0px;
 }
-
+.help-list-sub:hover{
+    box-shadow: 2px 2px 2px 2px red;
+}
 .help-list-sub img{
     width: 100%;
     height: 220px;
     padding: 20px 0px;
+    overflow: hidden;
 }
-
+.help-list-sub img:hover{
+    width: 300px;
+}
 .help-list-sub a{
     font-family: sarabun-extrabold;
     color: #D03135;
 }
+.news h3{
+    color: #0D8E16;
+    margin-top: 20px;
+}
+.new-paper a{
+    text-decoration: none;
+    color:#0D8E16;
+}
+.new-paper a:hover{
+    color: red;
+}
 .map{
     margin-top: 20px;
+}
+.about-us{
+    margin-top: 20px;
+}
+.about-us h1{
+    color:#0D8E16;
 }
 /* send mail */
 .send-mail{
@@ -128,7 +172,7 @@ form.cal{
     border-radius: 50px;
     border: 2px solid white;
     margin-top: 70px;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 .fa-envelope{
     width: 40px;
@@ -147,6 +191,7 @@ form.cal{
 }
 .list-send{
     margin-top: 80px;
+    margin-bottom: 20px;
 }
 #exampleFormControlInput2{
     margin-top: 80px;
@@ -154,7 +199,7 @@ form.cal{
 /* footer */
 .footer-hotel{
     display: block;
-    height: 350px;
+    min-height: 350px;
 }
 .img-footer{
     width: 100%;
