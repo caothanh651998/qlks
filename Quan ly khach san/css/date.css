@@ -1,0 +1,27 @@
+.datepicker-dropdown{
+	display: block; 
+	width: 220px;
+	top: 493px; 
+	left: 52px;
+}
+.datepicker-days{
+	display: block;
+}
+.datepicker-months{
+	display: none;
+}
+.prev{
+	visibility: visible;	
+}
+.next{
+	visibility: visible;
+}
+.today{
+	display: none;
+}
+.clear{
+	display: none;
+}
+.datepicker-years{
+	display: none;
+}

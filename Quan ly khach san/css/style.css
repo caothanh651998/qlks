@@ -112,8 +112,20 @@ form.cal{
 }
 .fa-calendar-alt:before {
     position: absolute;
-    top: 43px;
+    top: 10px;
     right: 10px;
+}
+#datepicker{width:220px; margin: 0 20px 20px 20px;}
+#datepicker span:hover{cursor: pointer;}
+#datepicker1{width:220px; margin: 0 20px 20px 20px;}
+#datepicker1 span:hover{cursor: pointer;}
+.datepicker-dropdown{
+    display: block; 
+    width: 220px;
+    text-align: center;
+}
+.table-condensed{
+    width: 220px;
 }
 .help-list-title{
     font-family: sarabun-extrabold;
@@ -195,6 +207,116 @@ form.cal{
 }
 #exampleFormControlInput2{
     margin-top: 80px;
+}
+/* minh trung */
+ .Rooms{
+    clear: both;
+}
+ .Rooms .line{
+    width: 30%;
+    height: 1px;
+    clear: both;
+}
+.Rooms .line .line1{
+    margin: 32px 10px;
+    width: 35%;
+    height: 3px;
+    background: black;
+    float: left;
+}
+.Rooms p.gioithieu{
+    clear: both;
+    font-size: 20px
+}
+.Rooms .room{
+    height: 435px;
+    margin-left: 6.25%;
+    margin-top: 30px;
+    background: #F0FDA8;
+}
+.Rooms .room .anh{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+.Rooms .room .anh img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s ease-in-out;
+}
+.Rooms .room .anh img:hover{
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform:scale(1.1);
+}
+.Rooms .room .anh .roomp{
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+}
+.Rooms .room .kickthuoc{
+    width: 95%;
+    height: 70px;
+    margin-left: 2.5%;
+    background: #EFF46C;
+}
+.Rooms .room .kickthuoc .kt{
+    width: 49%;
+    float: left;
+    padding-top: 6px;
+    padding-left: 3px;
+}
+
+.Rooms .contai{
+    margin: 0 auto;
+    width: 1200px;
+    height: 200px;
+    overflow: hidden;
+}
+.contai .box{
+    width: 300px;
+    height: 100%;
+    float: left;
+    transition: 0.5s ease-out;
+}
+.contai .box img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease-out;
+}
+.contai .box:hover img{
+    width: 450px;
+}
+.contai:hover .box{
+    width: 250px;
+    float: left;
+}
+.contai .box:hover{
+    width: 450px;
+}
+
+.book img{
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+}
+.book{
+    padding: 10px;
+}
+.now {
+    margin-top: 65px;
+}
+.now .number{
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+    font-size: 30px;
+    border: #000000 solid 1px;
+}
+.now .ND{
 }
 /* footer */
 .footer-hotel{
